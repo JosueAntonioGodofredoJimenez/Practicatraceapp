@@ -1,0 +1,87 @@
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--color-primary);
+}
+
+.logo img,
+.footer-logo img {
+  height: 32px;
+  vertical-align: middle;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: var(--color-dark);
+}
+
+.btn {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  text-align: center;
+  display: inline-block;
+}
+
+.btn-outline {
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  background: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  margin-left: 1rem;
+}
+
+.hero-img img {
+  max-width: 300px;
+  border-radius: 12px;
+}
+
+.features-list {
+  background: var(--color-white);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+}
+
+.plan {
+  background: var(--color-white);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.plan {
+  transition: background 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.plan.selected {
+  background-color: #0d47a1;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.plan.selected h3,
+.plan.selected p,
+.plan.selected li {
+  color: white;
+}
+
+
+.plan h3 {
+  color: var(--color-primary);
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
